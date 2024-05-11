@@ -1,0 +1,881 @@
+*{
+    font-family: 'Baloo Bhai 2';
+}
+
+/* navebar  start*/
+#contact{
+    position: absolute;
+    top: 270px;
+    width: 100%;
+    color: rgb(247, 238, 238);
+    
+}
+
+
+#topimg{
+    background-image:linear-gradient(rgba(4,9,3,0.7),rgba(4,9,3,0.7)),url(../img/topimg.jpg); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 700px;
+    background: linear-gradient();
+    /* background-attachment: fixed; */
+    
+    
+    
+}
+
+#topimg1{
+    background-image:linear-gradient(rgba(4,9,3,0.7),rgba(4,9,3,0.7)),url(../img/topimg4.jpg); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 700px;
+    background: linear-gradient();
+    /* background-attachment: fixed; */
+    
+    
+    
+}
+
+#navbar{
+    background-color: black;
+}
+
+.img1{
+    background-image:linear-gradient(rgba(4,9,3,0.5),rgba(4,9,3,0.5)),url(../img/topimg.jpg);
+    width: 100%;
+    height: 800px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+.img2{
+    background-image:linear-gradient(rgba(4,9,3,0.5),rgba(4,9,3,0.5)),url(../img/topimg2.jpg);
+    width: 100%;
+    height: 800px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+.img3{
+    background-image:linear-gradient(rgba(4,9,3,0.5),rgba(4,9,3,0.5)),url(../img/topimg3.jpg);
+    width: 100%;
+    height: 800px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+.img4{
+    background-image:linear-gradient(rgba(4,9,3,0.5),rgba(4,9,3,0.5)),url(../img/topimg4.jpg);
+    width: 100%;
+    height: 800px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+#decor{
+    position: relative;
+    top: 250px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#decor1{
+    position: relative;
+    top: 250px;
+    left: 10px;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 70px;
+}
+
+#decor1::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background-color: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+}
+
+#decor2{
+    position: relative;
+    top: 250px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+}
+#home::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+}
+
+#home:hover:after{
+    width: 100%;
+}
+
+/* #navbarDropdown::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+}
+
+#navbarDropdown:hover:after{
+    width: 100%;
+} */
+
+#designs{
+    margin-top: -130px;
+
+}
+
+
+
+#animation{
+position: relative;
+border-radius: 50px;
+}
+
+
+#animation img{ 
+ width: 100%;
+border-radius: 50px;
+display: block;
+
+
+ }
+
+.effect{
+position: absolute;
+top: 0;
+width: 100%;
+height: 100%;
+border-radius: 50px;
+text-align: center;
+background-color: transparent;
+transition: 0.5s;
+cursor: pointer;
+
+}
+
+.effect:hover{
+    background-color:rgba(226, 0, 0, 0.5);
+}
+
+.effect p{
+position: absolute;
+bottom: 0;
+color: white;
+width: 100%;
+opacity: 0;
+transition: 0.5s;
+}
+
+.effect h3{
+    position: absolute;
+    bottom: 40px;
+    color:white;
+    width: 100%;
+    transition: 0.5s;
+    opacity: 0;
+    }
+
+    .effect:hover p{
+        bottom: 35%;
+        opacity: 1;
+    }
+
+    .effect:hover h3{
+        bottom: 48%;
+        opacity: 1;
+    }
+
+    #icon
+    {
+        font-size: 30px;
+        border-radius: 50% ;
+        border: white 2px solid;
+        padding: 20px;
+        color:white;
+        width:20%;
+        text-align: center;
+       
+        
+    }
+    
+    #text{
+        color:white;
+        font-weight: bold;
+    }
+    
+    #icon:hover{
+        background-color: #f44336;
+        border: white 2px solid;
+    
+    }
+    
+    #formimg{
+        background-image:linear-gradient(rgba(4,9,3,0.7),rgba(4,9,3,0.7)),url(../img/formimg2.jpg); 
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        
+        
+    }
+    
+    /* #formimg1{
+        background-image:linear-gradient(rgba(4,9,3,0.7),rgba(4,9,3,0.7)),url(../img/topimg.jpg); 
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    } */
+    
+    
+
+
+    
+    
+/* navebar start */
+
+
+
+.container-fluid{
+background-color:  #fff3f3;
+}
+#shadow:hover{
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+    
+}
+/* #shadow img{
+    border-radius: 25px;
+}
+#shadow{
+    border-radius: 25px;
+} */
+#har:hover{
+    background-color: transparent;
+    color: black;
+    
+  
+}
+#har a::after{
+    content: "";
+    /* position: relative; */
+    width: 0%;
+    height: 1px;
+    background-color: #f44336;
+    display: block;
+    margin: auto;
+   transition: 0.5s;
+}
+#har a:hover::after{
+    width: 100%;
+}
+
+
+#after::after {
+    content: "";
+    /* position:relative; */
+    width: 10%;
+    height: 3px;
+    background-color: #f44336;
+    display: block;
+    margin: auto;
+    /* transition: 0.3s; */
+}
+/* -------------------------our campus start------------------------------------ */
+
+#outlet{
+    position: relative;
+    border-radius: 20px;
+    
+} 
+
+#outlet img{
+    width: 100%;
+   
+    display: block;
+    border-radius: 20px;
+}
+
+.layer{
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.layer:hover{
+    background-color: rgba(226, 0, 0, 0.7);
+}
+.layer h2{
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.4s;
+}
+.layer:hover h2{
+    bottom: 48%;
+    opacity: 1;
+}
+ /* h3::after{
+    content: "";
+    background-color: rgb(161, 180, 172);
+    width: 25%;
+    height: 3px;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+} */
+/* -------------------------our campus end------------------------------------ */
+
+/* counter work css */
+
+#counterimg{
+    background-image:linear-gradient(rgba(4,9,3,0.7),rgba(4,9,3,0.7)),url(../img/counterimg.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+    height: 200px;
+    
+    
+}
+
+.counter{
+    padding-top: 50px;
+}
+
+footer{
+    background-color:  black;
+    padding: 85px 0;
+    margin-top: 50px;
+}
+
+.single-box p{
+    color: white;
+    line-height: 1.9;
+}
+
+
+.single-box h3{
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+}
+
+.single-box .cardarea i{
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.single-box ul{
+    color: #fff;
+    list-style: none;
+    padding: 0;
+}
+
+.single-box ul li a{
+    color: #fff;
+    text-decoration:  none;
+    padding: 0;
+    font-weight: 100;
+    line-height: 2.5;
+}
+
+.single-box h2{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.single-box h2::after{
+    content: "";
+    width: 15%;
+    height: 2px;
+    background-color: #f44336;
+    display: block;
+    
+    transition: 0.5s;
+}
+
+#basic-addon2{
+    background-color: #f44336;
+    color: #fff;
+
+}
+
+.socials i{
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+@media(max-width:767px){
+    .single-box{
+        margin-bottom: 50px;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    .single-box{
+        margin-bottom: 50px;
+    }
+}
+
+
+/* media slider */
+
+@media(max-width:821px) {
+    #mediaslider {
+        height: 500px;
+    }
+}
+
+@media(max-width:668px) {
+    #mediaslider {
+        height: 350px;
+    }
+}
+
+@media(max-width:1001px) {
+    #mediaslider {
+        height: 580px;
+    }
+}
+
+@media(max-width:751px) {
+    #mediaslider {
+        height: 400px;
+    }
+}
+
+@media(max-width:601px) {
+    #mediaslider {
+        height: 300px;
+    }
+}
+
+@media(max-width:501px) {
+    #mediaslider {
+        height: 300px;
+
+    }
+}
+
+@media(max-width:401px) {
+    #mediaslider {
+        height: 250px;
+    }
+}
+
+/* media slider end*/
+
+/* media slider end*/
+
+/* topimg media */
+
+@media(max-width:745px){
+    #topimg{
+        height: 450px;
+    }
+}
+
+@media(max-width:668px){
+    #topimg{
+        height: 350px;
+    }
+}
+
+@media(max-width:951px){
+    #topimg{
+        height: 550px;
+    }
+}
+
+@media(max-width:751px){
+    #topimg{
+        height: 400px;
+    }
+}
+
+@media(max-width:601px){
+    #topimg{
+        height: 300px;
+    }
+}
+
+@media(max-width:501px){
+    #topimg{
+        height: 300px;
+    }
+}
+
+@media(max-width:401px){
+    #topimg{
+        height: 250px;
+    }
+}
+
+/* topimg media end */
+
+/* topimg1 media */
+
+@media(max-width:745px){
+    #topimg1{
+        height: 450px;
+    }
+}
+
+@media(max-width:668px){
+    #topimg1{
+        height: 350px;
+    }
+}
+
+@media(max-width:951px){
+    #topimg1{
+        height: 550px;
+    }
+}
+
+@media(max-width:751px){
+    #topimg1{
+        height: 400px;
+    }
+}
+
+@media(max-width:601px){
+    #topimg1{
+        height: 300px;
+    }
+}
+
+@media(max-width:501px){
+    #topimg1{
+        height: 300px;
+    }
+}
+
+@media(max-width:401px){
+    #topimg1{
+        height: 250px;
+    }
+}
+
+/* topimg1 media end */
+
+
+/* slider wording media start */
+
+@media(max-width:1001px) {
+    #decor{
+
+        font-size: 30px;
+        margin-top: -100px;
+    }
+}
+
+@media(max-width:1001px) {
+    #decor1 {
+
+        font-size: 50px;
+        margin-top: -20px;
+        position: relative;
+        
+        left: 8px;
+       
+    }
+}
+
+@media(max-width:1001px) {
+    #decor2 {
+
+        font-size: 30px;
+        margin-top: -10px;
+    }
+}
+
+@media(max-width:751px) {
+    #decor {
+
+        font-size: 20px;
+        position: relative;
+        top: 180px;
+        left: 8px;
+        
+    }
+}
+
+/* @media(max-width:601px) {
+    #decor {
+
+        font-size: 20px;
+        position: relative;
+    
+        left: 8px;
+        
+    }
+} */
+
+
+@media(max-width:601px) {
+    #decor {
+
+        display: none;
+        
+    }
+}
+
+@media(max-width:751px) {
+    #decor1 {
+
+    font-size: 30px;
+    position: relative;
+    top: 180px;
+    left: 8px;
+}
+}
+
+
+
+@media(max-width:601px) {
+    #decor1 {
+
+    font-size: 25px;
+    position: relative;
+    top: 110px;
+    left: 8px;
+}
+}
+
+@media(max-width:501px) {
+    #decor1 {
+
+    font-size: 25px;
+    position: relative;
+    top: 110px;
+    left: 8px;
+}
+}
+
+@media(max-width:401px) {
+    #decor1 {
+
+    font-size: 25px;
+    position: relative;
+    top: 90px;
+    left: 8px;
+}
+}
+
+
+
+@media(max-width:751px) {
+    #decor2 {
+
+    font-size: 20px;
+    position: relative;
+    top: 170px;
+    left: 8px;
+}
+}
+
+@media(max-width:601px) {
+    #decor2 {
+
+    font-size: 15px;
+    position: relative;
+    top: 110px;
+    left: 8px;
+        
+    }
+}
+
+@media(max-width:401px) {
+    #decor2 {
+
+   display: none;
+    }
+}
+
+
+/* slider wording media start */
+
+
+
+@media(max-width:897px) {
+    #mediamodal {
+        height: 200px;
+        width: 70%;
+    }
+}
+
+@media(max-width:721px) {
+    #mediamodal {
+        height: 200px;
+        width: 60%;
+    }
+}
+
+@media(max-width:400px) {
+    #mediamodal {
+        height: 200px;
+        width: 70%;
+    }
+}
+
+
+
+
+
+@media(max-width:897px){
+    #mediamodal{
+        height: 200px;
+        width: 70%;
+    }
+}
+
+@media(max-width:721px){
+    #mediamodal{
+        height: 200px;
+        width: 60%;
+    }
+}
+
+@media(max-width:400px){
+    #mediamodal{
+        height: 200px;
+        width: 70%;
+    }
+}
+
+/* design media */
+
+@media(max-width:768px) and (min-width:600px) {
+    #media {
+        width: 50%;
+        margin: auto;
+        position: relative;
+        top: 20px;
+    }
+    
+}
+
+@media(max-width:600px) and (min-width:400px) {
+    #media {
+        width: 70%;
+        margin: auto;
+        position: relative;
+        top: 20px;
+    }
+    
+}
+
+@media(max-width:400px) and (min-width:351px) {
+    #media {
+        width: 80%;
+        margin: auto;
+        position: relative;
+        top: 20px;
+    }
+    
+}
+
+@media(max-width:352px) and (min-width:251px) {
+    #media {
+        width: 80%;
+        margin: auto;
+        position: relative;
+        top: 20px;
+        
+}
+
+}
+
+
+@media(max-width:992px) and (min-width:768px) {
+    #counterimg {
+       height: 300px;
+       text-align: center;
+    }
+}
+
+@media(max-width:992px){
+    #counterimg {
+        height: 540px;
+        text-align: center;
+     }
+}
+
+/* galery media */
+/* @media(max-width:576px){
+    #shadow{
+       width: 100%;
+       height: 500px;
+     }
+} */
+/* galery media */
+
+/* designs media end */
+
+
+/* about us  */
+#aboutus{
+    margin-top: 130px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#about1{
+    margin: -35px -2px;
+}
+#about2{
+    margin: -35px -2px;
+}
+#arrow-right{
+    
+    width: 12px;
+    transition-property: width;
+    transition-duration: 2s;
+
+}
+#arrow-right:hover{
+    width: 200px;
+}
+
+
+
+#error
+{
+    display: none;
+}
+
+#companylogo img{
+    width: 45px;
+    position: relative;
+    bottom: 5px;
+}
